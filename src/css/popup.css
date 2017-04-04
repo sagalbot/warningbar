@@ -1,5 +1,6 @@
 :root {
   --red: #e55010;
+  --blue: #10b3e5;
 }
 
 html,
@@ -18,10 +19,20 @@ button {
   display: block;
   padding: 1em;
   text-align: center;
+  appearance: none;
+  color: white;
+  border: none;
+}
+
+button:focus,
+button:active {
+  outline:none;
 }
 
 #production {
   background: var(--red);
-  color: white;
-  appearance: none;
+}
+
+#development {
+  background: var(--blue);
 }
