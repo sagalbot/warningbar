@@ -1,0 +1,27 @@
+:root {
+  --red: #e55010;
+}
+
+html,
+body {
+  padding: 0;
+  min-width: 150px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  width: 100%;
+  display: block;
+  padding: 1em;
+  text-align: center;
+}
+
+#production {
+  background: var(--red);
+  color: white;
+  appearance: none;
+}

@@ -1,6 +1,9 @@
 {
-  "name": "Chrome Extension Webpack",
+  "name": "Production Warning Bar",
   "options_page": "options.html",
+  "permissions": [
+    "storage"
+  ],
   "background": {
     "page": "background.html"
   },
